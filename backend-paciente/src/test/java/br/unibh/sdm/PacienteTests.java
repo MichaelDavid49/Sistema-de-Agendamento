@@ -44,7 +44,7 @@ public class PacienteTests {
     private SimpleDateFormat df = new SimpleDateFormat("dd/mm/yyyy");
 
     @Configuration
-@EnableDynamoDBRepositories(basePackageClasses = { PacienteRepository.class })
+    @EnableDynamoDBRepositories(basePackageClasses = { PacienteRepository.class })
 	public static class DynamoDBConfig {
 
 		@Value("${amazon.aws.accesskey}")
