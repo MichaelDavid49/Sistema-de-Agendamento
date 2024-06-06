@@ -17,6 +17,7 @@ import io.swagger.v3.oas.annotations.info.License;
  * @author jhcru
  *
  */
+
 @SpringBootApplication
 @Import({DynamoDBConfig.class})
 @OpenAPIDefinition(info = @Info(title = "Paciente API", version = "1.0", description = "API de Sistema de agendamento", 
